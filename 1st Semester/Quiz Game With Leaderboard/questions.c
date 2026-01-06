@@ -1,3 +1,10 @@
+/**
+ * Title: Quiz Questions Module
+ * Description: This module contains the questions, options, and answers for the quiz game.
+ * Author: Md Abdullah
+ * Date: 06/01/2026
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include "questions.h"

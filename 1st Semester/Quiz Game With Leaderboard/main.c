@@ -1,3 +1,11 @@
+/**
+ * Title: Quiz Game with Leaderboard
+ * Description: A simple quiz game that allows players to answer questions and view a leaderboard of high scores.
+ * Author: Md Abdullah
+ * Date: 06/01/2026
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

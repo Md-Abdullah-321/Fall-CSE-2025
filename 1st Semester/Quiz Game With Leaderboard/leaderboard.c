@@ -1,3 +1,10 @@
+/**
+ * Title: Leaderboard Management
+ * Description: Functions to save and display the leaderboard for the quiz game.
+ * Author: Md Abdullah
+ * Date: 06/01/2026
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
