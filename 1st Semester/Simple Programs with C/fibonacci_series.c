@@ -10,25 +10,24 @@
 #include <stdio.h>
 
 int main() {
-    int n, i;
-    int fib[100];
+    int totalTerms, termIndex;
+    int firstTerm = 0, secondTerm = 1, nextTerm;
 
     printf("Enter the number of terms in the Fibonacci series: ");
-    scanf("%d", &n);
-
-    fib[0] = 0;
-    fib[1] = 1;
-
-    for(i = 2; i < n; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
-    }
+    scanf("%d", &totalTerms);
 
     printf("Fibonacci Series:\n");
-    for(i = 0; i < n; i++) {
-        printf("%d ", fib[i]);
-    }
-    printf("\n");
 
+    for(termIndex = 1; termIndex <= totalTerms; termIndex++) {
+        printf("%d ", firstTerm);
+        
+        nextTerm = firstTerm + secondTerm;  // calculate next term
+        firstTerm = secondTerm;             // shift first term to second
+        secondTerm = nextTerm;              // update second term
+    }
+
+    printf("\n");
     return 0;
 }
+
 
