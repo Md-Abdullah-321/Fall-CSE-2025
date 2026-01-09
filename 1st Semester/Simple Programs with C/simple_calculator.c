@@ -1,8 +1,8 @@
 /**
- * Title: 
- * Description: 
+ * Title: Simple Calculator
+ * Description: This program performs basic arithmetic operations (addition, subtraction, multiplication, division) based on user input.
  * Author: Md Abdullah
- * Date: 22/08/2024
+ * Date: 08/01/2026
  */
 
  #include <stdio.h>

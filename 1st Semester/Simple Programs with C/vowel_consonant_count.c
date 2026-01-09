@@ -5,9 +5,6 @@
  * Date: 06/01/2026
  */
 
-
-
-
 #include <stdio.h>
 #include <ctype.h>
 
