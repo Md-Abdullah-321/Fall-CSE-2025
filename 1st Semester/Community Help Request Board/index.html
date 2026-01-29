@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Community Help Request Board</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Community Help Request Board</h1>
+      <a href="requests.html" class="nav-btn">View Active Requests</a>
+    </header>
+
+    <main class="container">
+      <!-- CARD -->
+      <section class="card">
+        <h2>How This Community Board Works</h2>
+        <p>
+          This platform allows community members to request help or support
+          others. Every request is shared respectfully to encourage kindness and
+          connection.
+        </p>
+      </section>
+
+      <!-- FORM -->
+      <section class="section">
+        <h2>Submit a Help Request</h2>
+        <form>
+          <label>
+            Full Name
+            <input type="text" required />
+          </label>
+
+          <label>
+            Email or Phone Number
+            <input type="text" required />
+          </label>
+
+          <label>
+            Type of Help Needed
+            <input type="text" required />
+          </label>
+
+          <label>
+            Location or Area
+            <input type="text" required />
+          </label>
+
+          <label>
+            Short Message or Description
+            <textarea rows="4" required></textarea>
+          </label>
+
+          <button type="submit">Submit Request</button>
+        </form>
+      </section>
+
+      <!-- TABLE -->
+      <section class="section">
+        <h2>Sample Help Requests</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Help Type</th>
+              <th>Location</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sarah Ahmed</td>
+              <td>Food Assistance</td>
+              <td>Downtown</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>John Miller</td>
+              <td>Transportation</td>
+              <td>North Area</td>
+              <td>In Progress</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Active Community Requests</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Active Community Requests</h1>
+      <a href="index.html" class="nav-btn">Submit a Request</a>
+    </header>
+
+    <main class="container">
+      <!-- CARD -->
+      <section class="card">
+        <h2>Request of the Day</h2>
+        <p>
+          Helping even one person can make a meaningful difference. Consider
+          reaching out if you’re able to support someone today.
+        </p>
+      </section>
+
+      <!-- FORM -->
+      <section class="section">
+        <h2>Get Involved</h2>
+        <form>
+          <label>
+            Name
+            <input type="text" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" required />
+          </label>
+
+          <label>
+            Area of Interest
+            <select required>
+              <option value="">Select one</option>
+              <option>Offering Help</option>
+              <option>Requesting Help</option>
+            </select>
+          </label>
+
+          <label>
+            Message
+            <textarea rows="4" required></textarea>
+          </label>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- TABLE -->
+      <section class="section">
+        <h2>Community Requests</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Requester Name</th>
+              <th>Help Needed</th>
+              <th>Location</th>
+              <th>Contact Method</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fatima Khan</td>
+              <td>Medical Support</td>
+              <td>East District</td>
+              <td>Email</td>
+            </tr>
+            <tr>
+              <td>David Lee</td>
+              <td>Grocery Pickup</td>
+              <td>South Area</td>
+              <td>Phone</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

@@ -35,9 +35,9 @@ char options[10][4][100] = {
     {"A. =", "B. !=", "C. ==", "D. ==="}
 };
 
-char answers[10] = {'A','C','B','C','D','C','B','A','B','C'};
+char answers[10] = {'A','B','B','C','D','C','B','A','B','C'};
 
-int playQuiz(const char *playerName) {
+int playQuiz(const char *playerName) { 
     int score = 0;
     char ans;
 
